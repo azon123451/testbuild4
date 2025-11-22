@@ -146,7 +146,7 @@
   let cart = JSON.parse(localStorage.getItem('cart') || '[]');
   let currentProduct = null;
   let categories = null;
-  const ADMIN_IDS = []; // Укажите Telegram user id админа, например: [123456789]
+  const ADMIN_IDS = [521962367]; // Viktor (@azon2701)
   const isAdmin = (() => {
     try {
       const uid = tg?.initDataUnsafe?.user?.id;
